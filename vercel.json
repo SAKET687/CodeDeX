@@ -1,0 +1,12 @@
+{
+	"rewrites": [
+		{
+			"source": "/leetcode/:path*",
+			"destination": "https://coderme.vercel.app/:path*"
+		},
+		{
+			"source": "/gfg/:path*",
+			"destination": "https://geeks-for-geeks-api.vercel.app/:path*"
+		}
+	]
+}
